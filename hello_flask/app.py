@@ -8,7 +8,7 @@ app = Flask(__name__)
 def hello_world():
     # Connect to the MySQL database
     db = MySQLdb.connect(
-        host="mydb",    # Hostname of the MySQL container
+        host="ddb",    # Hostname of the MySQL container
         user="root",    # Username to connect to MySQL
         passwd="my-secret-pw",  # Password for the MySQL user
         db="mysql"      # Name of the database to connect to

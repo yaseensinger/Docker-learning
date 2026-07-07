@@ -2,8 +2,8 @@
 
 services:
   web:
-    build: .
-    ports:
+    image: my-flask-app-multistage
+    ports: 
       - "5000:5000"
     depends_on:
       - db
